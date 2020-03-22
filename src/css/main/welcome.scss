@@ -1,0 +1,59 @@
+@keyframes DescribeGoingIn{
+    100%{
+        width: calc(80% - 620px);
+        padding: 10px;
+    }
+}
+
+
+.welcome-header{
+    font-family: "Oswald",sans-serif;
+    font-size: 2.9em;
+    padding: 10px;
+    width: calc(100% - 20px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.describe-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.reverse-picture,.short-describe,.fugger-picture-container{
+    display: inline-block;
+}
+.short-describe{
+    height: 404px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0px;
+    padding: 0px;
+    vertical-align: top;
+    text-align: center;
+    animation-name: DescribeGoingIn;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.fugger-picture-container{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Albrecht_D%C3%BCrer_080.jpg/300px-Albrecht_D%C3%BCrer_080.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 424px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.reverse-picture{
+    transform: scaleX(-1);
+}
+
+.first-text{
+    margin-bottom: 40px;
+}
