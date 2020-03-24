@@ -42,7 +42,6 @@ export default class Timeline extends React.Component{
         this.formTheList();
         return(
             <div className="timeline-container">
-                <header className="timeline-header">Live of Jacob Fugger</header>
                 <VerticalTimeline>
                     {this.finalItems}
                 </VerticalTimeline>

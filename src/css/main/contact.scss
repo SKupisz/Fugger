@@ -1,0 +1,19 @@
+.contact-ways{
+    width: calc(90% - 20px);
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Oswald",sans-serif;
+    .contact-item{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 40px 20px;
+        width: calc(90% - 40px);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

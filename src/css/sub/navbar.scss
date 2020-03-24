@@ -1,0 +1,30 @@
+.main-nav{
+    width: calc(100% - 20px);
+    padding: 10px;
+    height: 67px;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    .nav-item{
+        height: 47px;
+        border: 1px solid #555;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 10px 5px;
+        cursor: pointer;
+        transition: all 0.2s;
+        text-decoration: none;
+        color: black;
+    }
+    .nav-item:hover{
+        border-radius: 15px;
+        background: rgba(1,1,1,.4);
+    }
+    .nav-item-content{
+        padding: 10px 30px;
+    }
+}
