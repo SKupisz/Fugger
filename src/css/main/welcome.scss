@@ -4,7 +4,27 @@
         padding: 10px;
     }
 }
-
+@keyframes DescribeResponsive{
+    100%{
+        width: calc(80% - 220px);
+        padding: 0px 10px;  
+    }
+}
+@keyframes DescribeResponsiveMedium{
+    100%{
+        width: calc(80% - 200px); 
+    }
+}
+@keyframes DescribeResponsiveSmall{
+    100%{
+        width: calc(100% - 300px); 
+    }
+}
+@keyframes DescribeResponsiveXSmall{
+    100%{
+        width: calc(100% - 100px);
+    }
+}
 
 .welcome-header{
     font-family: "Oswald",sans-serif;
@@ -56,4 +76,73 @@
 
 .first-text{
     margin-bottom: 40px;
+}
+@media screen and (max-width: 1200px){
+    .describe-container{
+        margin-bottom: 80px;
+    }
+    .first-text{
+        margin-bottom: 40px;
+    }
+    .text-container{
+        margin: 0;
+    }
+    .short-describe{
+        height: 265px;
+        animation-name: DescribeResponsive;
+        font-size: 0.8em;
+    }
+    .fugger-picture-container{
+        width: 187px;
+        height: 265px;
+    }
+}
+@media screen and (max-width: 870px){
+    .short-describe{
+        height: 212px;
+        animation-name: DescribeResponsiveMedium;
+    }
+    .fugger-picture-container{
+        width: 150px;
+        height: 212px;
+    }
+    .first-text{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 637px){
+    .first-text{
+        margin-bottom: 0;
+    }
+    .short-describe{
+        font-size: 0.7em;
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 530px){
+    .fugger-picture-container{
+        width: 120px;
+        height: 170px;
+    }
+    .short-describe{
+        height: 170px;
+        animation-name: DescribeResponsiveSmall;
+    }
+}
+@media screen and (max-width: 486px){
+    .ifNotTooSmall{
+        display: none;
+    }
+    .fugger-picture-container{
+        width: 40px;
+        height: 57px;
+    }
+    .short-describe{
+        animation-name: DescribeResponsiveXSmall;
+    }
+}
+@media screen and (max-width: 400px){
+    .welcome-header{
+        font-size: 2.2em;
+    }
 }

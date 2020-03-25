@@ -12,7 +12,7 @@ export default class Entrance extends React.Component{
                        An average human nowadays doesn't have a clue who Jacob Fugger was. And that's such a pity that we don't remember about one of the richest men in history. Jacob Fugger, one of the most effective bankers of the Renaissance Europe, created a financial empire that existed for a long time after he had passed away.
                     </Typing>
                     <Typing speed = {10} startDelay = {8000}>
-                    Let me show you some of Jacob Fugger's career below. If, having read it, you would like to know more about Fugger, read "The Richest Man Who Ever Lived: The Life and Times of Jacob Fugger" by Greg Steinmetz, whose book has inspired me to make this app.
+                        <label htmlFor="" className="ifNotTooSmall">Let me show you some of Jacob Fugger's career below. If, having read it, you would like to know more about Fugger, read "The Richest Man Who Ever Lived: The Life and Times of Jacob Fugger" by Greg Steinmetz, whose book has inspired me to make this app.</label>
                     </Typing>
                 </p>
             </div>
