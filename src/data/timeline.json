@@ -59,12 +59,17 @@
         "smaller": "Fugger gave a lend to Albert Hochenzollern",
         "content": "The way Fugger wanted the debt to be paid inspired Matrin Luther to write down his 96 arguments against the church fairs. We can say that in some way Fugger started the reformation."
     },
-    "item12": {
+    "item12":{
+        "header": "1514",
+        "smaller": "The Poor Arnold rebellion",
+        "content": "In 1514 some peasants munitied against their lords, which has ended with the death of 2000 of them. This revolt was a part of the entrance to the happenings that took place a decade later."
+    },
+    "item13": {
         "header": "1524-1525",
         "smaller": "German Peasants' War",
         "content": "Peasants leaded by Thomas Müntzer started the rebellion against the noblemen and the wealthy. Fugger supported the nobles which had finally suppressed the revoultion and executed its leaders."
     },
-    "item12": {
+    "item14": {
         "header": "30th of December 1525",
         "smaller": "Jacob Fugger dead",
         "content": ""

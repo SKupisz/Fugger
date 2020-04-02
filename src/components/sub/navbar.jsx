@@ -21,7 +21,12 @@ export default class Navbar extends React.Component{
                         <div className="nav-item-content">Timeline</div>
                     </div>
                 </Link>
-                <Link to = "contact">
+                <Link to = "/gallery">
+                    <div className="nav-item">
+                        <div className="nav-item-content">Gallery</div>
+                    </div>
+                </Link>
+                <Link to = "/contact">
                     <div className="nav-item">
                         <div className="nav-item-content">Contact</div>
                     </div>
